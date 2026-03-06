@@ -175,25 +175,6 @@ CE_APP_NAME=cos-langflow-app
 
 ---
 
-### Complete `.env` Example
-
-```bash
-# Langflow
-LANGFLOW_URL=https://169.61.49.180/api/v1/run/bfb6f30f-7d32-41c5-8f35-ceaf5e92954a?stream=false
-LANGFLOW_API_KEY=sk-kuTuloaUuT2oBIDTa-RqQc_kqbCTBimWXPdm7BTUPdE
-COS_COMPONENT_ID=IBMCOSFile
-
-# COS
-COS_BUCKET_NAME=my-documents-bucket
-COS_REGION=us-south
-
-# Code Engine
-CE_PROJECT_NAME=langflow-triggers
-CE_APP_NAME=cos-langflow-app
-```
-
----
-
 ## Running the Setup
 
 ```bash
